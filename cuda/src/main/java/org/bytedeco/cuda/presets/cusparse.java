@@ -57,6 +57,8 @@ public class cusparse implements InfoMapper {
                .put(new Info("csru2csrInfo_t").valueTypes("csru2csrInfo").pointerTypes("@ByPtrPtr csru2csrInfo"))
                .put(new Info("cusparseColorInfo_t").valueTypes("cusparseColorInfo").pointerTypes("@ByPtrPtr cusparseColorInfo"))
                .put(new Info("pruneInfo_t").valueTypes("pruneInfo").pointerTypes("@ByPtrPtr pruneInfo"))
+               .put(new Info("cusparseSpVecDescr_t").valueTypes("cusparseSpVecDescr").pointerTypes("@ByPtrPtr cusparseSpVecDescr"))
+               .put(new Info("cusparseDnVecDescr_t").valueTypes("cusparseDnVecDescr").pointerTypes("@ByPtrPtr cusparseDnVecDescr"))
                .put(new Info("cusparseSpMatDescr_t").valueTypes("cusparseSpMatDescr").pointerTypes("@ByPtrPtr cusparseSpMatDescr"))
                .put(new Info("cusparseDnMatDescr_t").valueTypes("cusparseDnMatDescr").pointerTypes("@ByPtrPtr cusparseDnMatDescr"));
     }
